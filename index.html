@@ -10,14 +10,11 @@
 </head>
 <body>
 
-  </style>
-  </head>
-  <body>
 
   <ul class="top">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href=index.html>Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
   </ul>
 
   <div id="header">
@@ -46,8 +43,9 @@
   }
   </script>
 
-  <ul class="tl">
-    <a href="#patriots"><li><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=30px height=auto/> 2001 Patriots</li></a>
+
+  <ul class="tl" id="champs">
+    <a href="#patriots"><li><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=30px height=auto/> 2002 Patriots</li></a>
     <a href="#patriots2"><li><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=30px height=auto/> 2004 Patriots</li></a>
     <a href="#redsox"><li><img src="https://s3.amazonaws.com/freebiesupply/large/2x/boston-red-sox-logo-transparent.png" width=30px height=auto style="margin-bottom: -10px"/> 2004 Red Sox</li></a>
     <a href="#patriots3"><li><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=30px height=auto/> 2005 Patriots</li></a>
@@ -58,6 +56,28 @@
     <a href="#patriots4"><li><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=30px height=auto/> 2015 Patriots</li></a>
     <a href="#patriots5"><li><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=30px height=auto/> 2017 Patriots</li></a>
   </ul>
+
+
+  <script>
+  window.onscroll = function() {topbar()};
+
+  var head = document.getElementById("champs");
+
+  var sticky = head.offsetTop;
+
+  function topbar()
+  {
+    if (window.pageYOffset >= sticky)
+    {
+      head.classList.add("sticky");
+      marginchange.classList.add("margintop")
+    }
+    else
+    {
+      head.classList.remove("sticky");
+    }
+  }
+  </script>
 
   <div id="start">
     <h1>Kings of the 21st Century</h1>
@@ -77,7 +97,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Super_Bowl_XXXVI_Logo.svg/400px-Super_Bowl_XXXVI_Logo.svg.png" width=6% height=auto/ align=left style="margin-right: 10px">
 
     <p align=left>
-      The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+      Maligned, disrespected, and disbelieved, the New England Patriots won Super Bowl XXXVI, 20-17, over the highly favored St. Louis Rams at the Superdome. And, not surprisingly, they did it on the final play of the game. Adam Vinatieri settled the score with a 48-yard field goal as time expired, sealing one of the biggest upsets in NFL history and completing one of the all-time worst-to-first stories. It was the latest in a succession of games that cast the Patriots as the underdog, but once again they outcoached, outmashed, and outwilled the opposition. It did not matter that they were playing a team with the fastest players in football and one of the greatest offenses in NFL history. The Rams were unable to use their speed because they found themselves on the turf, face-down, so often.
     </p>
 
     <p>
@@ -85,7 +105,11 @@
     </p>
 
     <p>
-      Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+      And in terms of intangibles such as will, desire, and heart, the Patriots were through the roof.
+
+The players hugged and kissed in jubilation on the Superdome turf, celebrating the first league championship since the organization’s inception in 1960. It took Bill Belichick just two years to win the championship, which comes a year after his team finished in last place in the AFC East with a 5-11 record.
+
+Young Tom Brady (16 of 27, 145 yards, one TD, no interceptions) calmly directed the Patriots to the winning score after the Rams had tied the game, 17-17, with 1:30 remaining. With short passes of 5, 8, and 11 yards to J.R Redmond, plus key completions to Troy Brown and Jermaine Wiggins, Brady directed the no-huddle offense with no timeouts. He took the Patriots from their 17-yard line to the Rams’ 30, setting up Vinatieri with 7 seconds left. ’’It’s just an overwhelming feeling,’’ said Brady, the Super Bowl MVP in his first year as a starter. "I can’t describe it. It’s everybody just playing together like we have all season, overcoming the odds."
     </p>
 
     </div>
@@ -104,15 +128,16 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Super_Bowl_XXXVIII.svg/400px-Super_Bowl_XXXVIII.svg.png" width=6% height=auto/ align=left style="margin-right: 10px">
 
     <p align=left>
-      The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
-    </p>
+      Moments before Super Bowl XXXVIII, in the privacy of the Patriots’ locker room at Reliant Stadium, Bill Belichick finally released his tongue from the captivity of his teeth. The reserved coach, whose every public uttering is calculated, lit a fire under his team by lighting into the Carolina Panthers during a stirring pregame speech.
+
+      ”I always believe he saves the best for last,” tight end Christian Fauria said. “The speech was basically like, `We kept our mouths shut, we didn’t say anything, now it’s time to get to business.’ I don’t want to go into exactly what he said, but we just knew that the show was over, being politically correct was over, and we knew what we had to do no matter what we were saying to the press. When we came out there, you could tell we were ready to fight those guys right on the field.”    </p>
 
     <p>
           <img src="http://www.afgrant.com/images/sbxxxviii/kick_rear.jpg" width=30% height=auto/ class="sph">
     </p>
 
     <p>
-      Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+      The Panthers didn’t die easily. The Patriots won their second Super Bowl in three years, 32-29, and 15th consecutive game on Adam Vinatieri’s 41-yard field goal with four seconds to go. New England became the first team since the undefeated 1972 Miami Dolphins to win that many successive games to end a season. The Patriots did it by focusing on the next game. Since there are no more games, they finally were able to step back and appreciate their body of work. The Patriots went 37 yards in five plays to set up Vinatieri from 41. Vinatieri, who kicked a 48-yarder as time expired to beat the St. Louis Rams in Super Bowl XXXVI, earlier had missed twice (one blocked). Still, there wasn’t any doubt on the Patriots’ sideline.
     </p>
 
     </div>
@@ -131,7 +156,9 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/2004-World-Series.svg/440px-2004-World-Series.svg.png" width=7% height=auto/ align=left style="margin-right: 10px">
 
   <p align=left>
-    The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+    The Red Sox are champions of the world.
+
+    Avengers of 86 years of raw yearning, Terry Francona’s raggedy renegades liberated generations of Sox fans from the purgatory of their unrequited dreams when they buried the Cardinals, 3-0, before 52,037 under a canopy of clouds beneath a Blood Red Moon at Busch Stadium to win their first World Series since 1918. "All the waiting and all the great faith, they have finally paid off in the end,” principal owner John W. Henry said amid a sudsy celebration for the ages in the Sox’ clubhouse. “It took us a while but we got it done.”
   </p>
 
   <p>
@@ -139,7 +166,7 @@
   </p>
 
   <p>
-    Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+    Whatever it was -- a drought, a curse, a confluence of misfortune and mismanagement that endured longer than Soviet communism and doctors making house calls -- it’s over. The end came on the 18th anniversary of their last great Series heartache, losing in ‘86 to the Mets. While the Sox jumped all over each other in joy, great-grandparents who were old enough to remember Babe Ruth helping the Sox win their last World Series and star-struck school children whose memories run little deeper than the Manny Era reveled back home. One and all, they could thank the resurgent Derek Lowe for helping them across the threshold. Cast aside in early October, Lowe returned by mid-month to pitch in the clincher of the American League Division Series against the Angels, win Game 7 of the Championship Series against the Yankees, and shine in the biggest challenge of his career as he silenced the Cardinals for seven innings to triumph in the World Series finale.
   </p>
 
   </div>
@@ -156,7 +183,11 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Super_Bowl_XXXIX.svg/500px-Super_Bowl_XXXIX.svg.png" width=6% height=auto/ align=left style="margin-right: 10px">
 
   <p align=left>
-    The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+    The red, white, and blue confetti floated in the sky and dropped ever so gently on their latest field of dreams. There were hugs, pats on the backs, and family moments with children hugging their hero dads, and wives kissing their hero husbands. There was Bill Belichick, Romeo Crennel, and Charlie Weis, the brain trust of the Super Bowl XXXIX champions embracing for the final time, with Weis off to Notre Dame and Crennel off to Cleveland.
+
+    The Vince Lombardi Trophy was touched, kissed, and embraced like a loved one.
+
+    The New England Patriots, draped in blood, sweat, and tears, won the Super Bowl for the third time in four years, beating the Philadelphia Eagles, 24-21, before 78,125 at Alltel Stadium.
   </p>
 
   <p>
@@ -164,7 +195,13 @@
   </p>
 
   <p>
-    Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+    ”We’re champions now,” said Patriots safety Rodney Harrison. “I don’t know about dynasty right now.” Football historians will look back upon the current run by the Patriots and decide if it is indeed a dynasty. But for now it’s clear that no football team in the world is better.
+
+    The Patriots broke a 14-14 tie and took control with two fourth-quarter scores against the Eagles, who couldn’t stop Tom Brady and Co. when it counted most. Brady’s favorite target was Deion Branch, who tied a Super Bowl record with 11 catches for 133 yards and was named the game’s most valuable player.
+
+    ”It doesn’t make a difference who gets what,” said Branch. “Our plan was to come in here and win the game. We had a lot of doubters and we showed them that we are a big team and we came out and won tonight.”
+
+
   </p>
 
   </div>
@@ -182,7 +219,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/2007-World-Series.svg/440px-2007-World-Series.svg.png" width=7% height=auto/ align=left style="margin-right: 10px">
 
 <p align=left>
-  The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+  To borrow a term Jonathan Papelbon laid on David Letterman days after winning the World Series, they were the bedazzlers, these Boston Red Sox of 2007, a team that sparkled and glittered like the appliques on David Ortiz’s customized hats and shades, jackets and jeans, from the first fastball Josh Beckett unleashed in the second game of the season in Kansas City in April to the final swing and miss orchestrated by Papelbon in the World Series finale in Denver in October.
 </p>
 
 <p>
@@ -190,7 +227,7 @@
 </p>
 
 <p>
-  Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+  The Sox led the American League East for the final 166 days of 2007, from April 18 on, the longest consecutive stretch in club history. They won 96 games, tying Cleveland for most wins in the majors. After the season’s first 40 games, they were ahead by 10 games, only the second time in big league history a team had jumped to a double-digit lead at that stage of the season. On July 5, the lead was 12 games, the earliest the Sox ever led by such a wide margin. In the postseason, the Sox swept the Angels in the Division Series, fell perilously close to being eliminated by the Indians when they lost three of the first four games of the American League Championship Series, then ran the table, reeling off seven straight wins in overtaking the Indians and sweeping the Rockies, much like their spiritual forebears, the Sox of ‘04, did in staging the greatest comeback in history against the Yankees by winning the last four games of the ALCS, then sweeping the Cardinals.
 </p>
 
 </div>
@@ -207,15 +244,17 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/0/02/2008_NBA_Finals.png" width=7% height=auto/ align=left style="margin-right: 10px">
 
 <p align=left>
-  The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
-</p>
-
+  The Celtics were finally able to make room in the rafters for their league-best 17th championship banner, claiming the NBA title by defeating the Los Angeles Lakers, 131-92, in Game 6 of the NBA Finals at TD Banknorth Garden. "Oh, it's a great feeling, man," said Finals MVP Paul Pierce, "just knowing that these guys, what they accomplished and those things that hang over our head every day, and for us to go out there and make history in front of those guys. It means so much more because these are the guys, the Havliceks, the Bill Russells, the Cousys. These guys started what's going on today with those banners."
 <p>
       <img src="http://s3.amazonaws.com/media.wbur.org/wordpress/10/files/2012/06/0601_bigthree.jpg" width=50% height=auto/ class="sph">
 </p>
 
 <p>
-  Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+  The Celtics, winning this series, four games to two, are now 9-2 in Finals history against their bitter rivals, the Lakers. They finished these playoffs with a 13-1 record at home and played an NBA-record 26 postseason games.
+
+  The All-Star trio of Pierce (17 points), Kevin Garnett (26 points, 14 rebounds), and Ray Allen (26 points) won a championship in their first season together. Just over a year ago, Pierce begged Celtics management for help, as his team was finishing with the second-worst record in the league. He was rewarded with the addition of Garnett and Allen, among others. Pierce rewarded management by having a superb Finals in which he averaged 21.8 points, 6.3 assists, and 4.5 rebounds in the six games. "It means everything," Pierce said. "You know, I'm not living under the shadows of the other greats now. I'm able to make my own history with my time here, and like I said, this is something that I wanted to do.
+
+  "If I was going to be one of the best Celtics to ever play, I had to put up a banner, and today we did that."
 </p>
 
 </div>
@@ -232,7 +271,11 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/97/2011_Stanley_Cup_Final_logo.svg/240px-2011_Stanley_Cup_Final_logo.svg.png" width=7% height=auto/ align=left style="margin-right: 10px">
 
 <p align=left>
-  The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+  For too long, hockey has been a punch line in Boston.
+
+  While the Red Sox, Patriots, and Celtics lifted their trophies and rode in their Duck Boats, the Bruins were the perpetual jokes — Charlie Brown, Larry Fine, and Bozo wrapped into one.
+
+  Hockey is cool again. Now, after a 4-0 throttling of the Canucks at Rogers Arena, it will be winter for a while. The boys of pucks and pluck kept the ice frozen until well after the tulips sprouted and the Swan Boats returned to the Public Garden. Only the air leaking from Roberto Luongo’s tires could melt the ice now. For the first time since 1972, players with spoked-B’s on their chests raised the Stanley Cup over their heads. And after seven games in the final, seven in the previous round, and seven in the first series, the Bruins felt every ounce of the Cup’s heft.
 </p>
 
 <p>
@@ -240,7 +283,16 @@
 </p>
 
 <p>
-  Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+  The Bruins found their game, grabbed a 1-0 lead — Patrice Bergeron one-timed a Brad Marchand dish from the slot at 14:37 — and ultimately fell into their rhythm.
+
+  "They were unbelievable," Seidenberg said. “They battled hard to give us energy every time they were out there. They were getting hits. They were forechecking hard. For them to give us that breather and that extra energy, it was great.’’
+  The Bruins wanted to win it for 43-year-old Mark Recchi, who played in his final NHL game. They wanted to win it for Thomas, the former scrub who couldn’t find an NHL job. They wanted to win it for Bergeron, the career Bruin once believed to have suffered a life-threatening injury.
+
+  They won. They won all right.
+
+  They won it for themselves, their city, and their long-suffering fans. This is a franchise once defined by too many men, Petr Klima, and the 2010 gag job against Philadelphia. The eight-spoked B was a brand caked over with grime for 39 years.
+
+  But now the Bruins have a silver Cup. It comes with plenty of polish. The spoked-B now gleams bright.
 </p>
 
 </div>
@@ -257,7 +309,9 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/2013-World-Series.svg/440px-2013-World-Series.svg.png" width=7% height=auto/ align=left style="margin-right: 10px">
 
 <p align=left>
-  The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+  Six months after Shelter in Place, the city of Boston invites the world to celebrate a victory of team over self. Boston Strong, at least a variation of the theme, hit a crescendo Wednesday night on the Fenway lawn, the town common of 2013.
+
+  These Red Sox, the motley crew that left Fort Myers begging, "Please don’t hate us," completed the ultimate redemption song, thrashing the St. Louis Cardinals, 6-1, in the sixth and final game of the 2013 World Series. The 2013 Sox dusted the field in the American League East, then blew past the Tampa Bays Rays, the Detroit Tigers, and the estimable Cardinals in an 11-5 postseason onslaught.
 </p>
 
 <p>
@@ -265,7 +319,8 @@
 </p>
 
 <p>
-  Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+  The Sox were dominant. In the 2013 playoffs they bested aces Matt Moore, David Price, Justin Verlander, Max Scherzer, Anibal Sanchez, Adam Wainwright, and Michael Wacha. And so Boston has its eighth championship parade since 2002, and outgoing mayor Thomas Menino will be on a duck boat, which is scheduled to roll down Boylston Street, past the places where the bombs exploded on Marathon Monday, April 15. It is the ultimate civic comeback story. Wednesday’s night’s finale was the first World Series Game 6 at Fenway since the Carlton Fisk Home Run Game of 1975, and it was a worthy successor. Luis Tiant, the ’75 Game 6 starter, tossed the ceremonial first pitch to old batterymate Fisk, and Sox heartbeat Dustin Pedroia completed the metaphor when he hit a towering foul fly that narrowly missed the left-field pole in the bottom of the first.
+  Pedroia’s near-miss was a mere footnote. The Sox would not be denied.
 </p>
 
 </div>
@@ -274,14 +329,18 @@
 
 <div id="patriots4" class="patriots">
 
-<h2><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=6% height=auto/> 2015: Butler Snaps Pick to Win the Super Bowl</h2><hr>
+<h2><img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b3b.png" width=6% height=auto/> 2015: Butler Grabs Pick to Win the Super Bowl</h2><hr>
 
   <div style="width: 90%; margin: 0 auto;">
 
   <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/SuperBowlXLIXLogo.png" width=6% height=auto/ align=left style="margin-right: 10px">
 
   <p align=left>
-    The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+    The last time the New England Patriots played a Super Bowl in the Arizona desert, it was a most unlikely hero who made the play of the game, a play that broke the Patriots’ backs.
+
+    This time the Patriots returned to the desert for Super Bowl XLIX, and it was again a most unlikely hero who made the play of the game, this time the play that delivered Lombardi Trophy No. 4 to New England.
+
+    The Patriots beat the Seattle Seahawks, 28-24, to reclaim the title of NFL champions thanks to an end-zone interception by undrafted rookie cornerback Malcolm Butler. The interception capped an impressive second-half comeback by the Patriots, who seemed to be in control in the first half, only to rather quickly fall behind by 10 points in the third quarter.
   </p>
 
   <p>
@@ -289,7 +348,13 @@
   </p>
 
   <p>
-    Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+    But the improved defense, the one lauded all season as the best New England has fielded in a decade, once again shut out the opponent in the fourth quarter and the offense regrouped from some miscues to string together two fourth-quarter touchdowns.
+
+    “I couldn’t be prouder of this team,” said Bill Belichick, “these guys have been counted out many times through the course of the year by a lot of people but they always believed in themselves and just kept fighting." But Brady, who fought a cold and continued to hear questions about the team’s alleged deflated footballs in the AFC Championship game all week, and seemed more relieved than exhilarated when at his postgame news conference, gave the credit to every one of his teammates.
+
+    “It’s just a lot of mental toughness. I think the whole team had it,” he said. “Coach [Belichick] always says, ‘Ignore the noise and control what you can control.’ We had two great weeks of practice; that’s what it took, and every situation that came up was important.
+
+    “Every third down that we made, every short-yardage, every red-area possession. That’s what we were focused on, that’s who we needed to be focused on, and that’s how we got the victory.”
   </p>
 
   </div>
@@ -305,7 +370,13 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Super_Bowl_LI_logo.svg/400px-Super_Bowl_LI_logo.svg.png" width=6% height=auto/ align=left style="margin-right: 10px">
 
   <p align=left>
-    The Patriots defeated the Rams by the score of 20–17. It was New England's first Super Bowl championship, and the franchise's first league championship of any kind, having suffered two previous losses. The game was also notable for snapping the AFC East's long streak of not being able to win a Super Bowl championship, as the division's teams had lost eight Super Bowls in total. The game was played at the Louisiana Superdome in New Orleans, on February 3, 2002. Following the September 11 attacks earlier in the season, the NFL postponed a week of regular season games and moved the league's playoff schedule back. As a result, Super Bowl XXXVI was rescheduled from the original date of January 27 to February 3, becoming the first Super Bowl played in February.
+    Case closed.
+
+    Tom Brady cemented his legacy as the greatest quarterback in history Sunday night and he did it in the most dramatic fashion.
+
+    The Patriots quarterback earned his fifth Super Bowl title and collected his fourth Super Bowl MVP as the Patriots staged the most incredible and improbable comeback in history of America’s game, beating the Falcons, 34-28, in overtime at NRG Stadium.
+
+    Erasing a 25-point second-half deficit, the Patriots scored 31 unanswered points against a Falcons team that played the fourth quarter as though they were waiting to be fitted for their rings rather than finishing their business on the field.
   </p>
 
   <p>
@@ -313,11 +384,26 @@
   </p>
 
   <p>
-    Although the Rams out-gained the Patriots 427–267 in total yards, New England built a 17–3 third-quarter lead off of three St. Louis turnovers. After a holding penalty in the fourth quarter negated a Patriots fumble return for a touchdown, Warner scored a 2-yard touchdown run and threw a 26-yard touchdown pass to tie the game, 17–17 with 1:30 remaining. Without any timeouts, Brady led his team down the field to set up kicker Adam Vinatieri's game-winning 48-yard field goal as time expired. Brady, who completed 16 of 27 passes for 145 yards and a touchdown, was named Super Bowl MVP.
+    James White’s 2-yard run in OT — the first in Super Bowl history — was the difference as the Patriots pulled off their second stunning Super Bowl victory in three seasons. Gostkowski drilled a 33-yard field goal to pull the Patriots closer at 28-12 on the team’s first possession of the fourth quarter, and two plays later, Dont’a Hightower got the ball back when he strip-sacked Ryan to hand the Patriots the ball at the Atlanta 25.
+
+    “Biggest play of the game,’’ said Long.
+
+    Brady fired a 6-yard TD pass to Amendola and White scored on a 1-yard run to make it 28-20.
+
+    The tying drive — Edelman’s incredible 23-yard catch the key — went 91 yards, matching New England’s longest drive of the season. White finished it with a 1-yard run and Amendola caught the 2-point conversion. It was 28-28.
+
+    Ryan got the ball back and for the first time all night, he looked frazzled and overwhelmed, woefully misfiring on a third-down pass.
+
+    Once the Patriots won the OT coin toss, it was over.
   </p>
 
   </div>
 
+</div>
+
+<hr>
+<div id="line">
+  © Michael McCullom 2018
 </div>
 
 </body>
